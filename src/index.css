@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .content {
+    @apply w-full h-screen snap-start justify-center bg-light-blue;
+  }
+
+  .layout {
+    @apply max-w-screen-lg mx-auto px-4;
+  }
+}
+
+.dot-loader {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #5a8c9a;
+  position: relative;
+  -webkit-animation: 1.2s grow ease-in-out infinite;
+  animation: 1.2s grow ease-in-out infinite;
+}
+
+.dot-loader--2 {
+  -webkit-animation: 1.2s grow ease-in-out infinite 0.15555s;
+  animation: 1.2s grow ease-in-out infinite 0.15555s;
+  margin: 0 20px;
+}
+.dot-loader--3 {
+  -webkit-animation: 1.2s grow ease-in-out infinite 0.3s;
+  animation: 1.2s grow ease-in-out infinite 0.3s;
+}
