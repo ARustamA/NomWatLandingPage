@@ -4,17 +4,17 @@ import bottleX from '@/assets/landing/2l.png';
 import bottleXl from '@/assets/landing/5l.png';
 import bottle2Xl from '@/assets/landing/8l.png';
 
-const astanaAnimation = {
-  hidden: {
-    x: 200,
-    opacity: 0
-  },
-  visible: {
-    transition: { duration: 1.5, delay: 0.1 },
-    x: 0,
-    opacity: 1
-  }
-};
+// const astanaAnimation = {
+//   hidden: {
+//     x: 200,
+//     opacity: 0
+//   },
+//   visible: {
+//     transition: { duration: 1.5, delay: 0.1 },
+//     x: 0,
+//     opacity: 1
+//   }
+// };
 const textAnimation = {
   hidden: {
     y: 200,
